@@ -17,6 +17,8 @@ def audio_callback(indata,frames,time,status):
 
 print("listening for claps....")
 
+
+
 with sd.InputStream(callback=audio_callback):
     while True:
         pass
